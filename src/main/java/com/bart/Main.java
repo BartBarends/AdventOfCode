@@ -2,6 +2,7 @@ package com.bart;
 
 import com.bart.days.day_1.Day1;
 import com.bart.days.day_2.Day2;
+import com.bart.days.day_3.Day3;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,5 +14,7 @@ public class Main {
         logger.log(Level.INFO, "Day 1 - Part 2: {0}", Day1.getResult(3));
         logger.log(Level.INFO, "Day 2 - Part 1: {0}", Day2.solvePartOne());
         logger.log(Level.INFO, "Day 2 - Part 2: {0}", Day2.solvePartTwo());
+        logger.log(Level.INFO, "Day 3 - Part 1: {0}", Day3.solvePartOne());
+        logger.log(Level.INFO, "Day 3 - Part 2: {0}", Day3.solvePartTwo());
     }
 }

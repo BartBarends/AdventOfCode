@@ -13,7 +13,7 @@ public class Day2 {
      * @return Total amount of points
      */
     public static int solvePartOne() {
-        final File inputFile = new File(Day1.class.getResource("/day_two_challenge_one.txt").getPath());
+        final File inputFile = new File(Day2.class.getResource("/day_two_challenge_one.txt").getPath());
 
         if(!inputFile.exists()) {
             return 0;
